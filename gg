@@ -1,0 +1,15 @@
+f = open(r'C:\Users\Peter123\Desktop\Python_reading.txt')
+f.readlines()
+['大家好，這是我的python練習程式之讀取檔案\n']
+f.close()
+f = open(r'C:\Users\Peter123\Desktop\Python_reading.txt')
+for line in f:
+    print(line, end="")
+大家好，這是我的python練習程式之讀取檔案
+f = open(r'C:\Users\Peter123\Desktop\data.txt')
+for line in f:
+    print(line, end="")
+姓名   學號  國文  英文  數學
+Andy   0529   78    89    70
+Cindy  0621   80    95    65
+Anna   0589   85    75    88
